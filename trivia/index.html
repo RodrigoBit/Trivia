@@ -2,12 +2,15 @@
 
 <html lang="pt-br">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
-        <script src="script.js"></script>
+
         <title>Trivia!</title>
     </head>
-    
+
     <body>
         <div class="header">
             <h1>Trivia!</h1>
@@ -21,10 +24,10 @@
                 <!-- TODO: Add multiple choice question here X-->
                 Qual o nome do criador da linguagem C++
                 </h3>
-                <button>Dennis Ritchie</button> 
-                <button>Bjarne Stroustrup</button>
-                <button>James Gosling</button>
-                <button>Guido Van Rossum</button>
+                <button class='button'>Dennis Ritchie</button> 
+                <button id='RespostaCorreta'>Bjarne Stroustrup</button>
+                <button class='button'>James Gosling</button>
+                <button class='button'>Guido Van Rossum</button>
             </div>
 
             <div class="section">
@@ -39,5 +42,6 @@
                 </input>  
             </div>
         </div>
+    <script src="script.js"></script>
     </body>
 </html>
