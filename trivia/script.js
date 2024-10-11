@@ -1,11 +1,11 @@
-const botaoCorreto = document.getElementById('RespostaCorreta');
+const botaoCorreto = document.getElementById("RespostaCorreta");
 
-botaoCorreto.addEventListener('click', function(){
-    this.classList.toggle('botao-clicado');
+botaoCorreto.addEventListener("click", function () {
+  this.classList.toggle("botao-clicado");
 });
 
-const botoes = document.querySelectorAll('button');
+const botoes = document.querySelectorAll("button");
 
-botoes.addEventListener('click', function(){
-    this.classList.toggle('botao-clicado-errado');
+botoes.addEventListener("click", function () {
+  this.classList.toggle("botao-clicado-errado");
 });
