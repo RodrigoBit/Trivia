@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
 
-        <title>Trivia!</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <div class="header">
-            <h1>Trivia!</h1>
-        </div>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 
-        <div class="container">
-            <div class="section">
-                <hr>
-                <h2>Perguntas de Multipla Escolha </h2>
-                <h3>
+    <title>Trivia!</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <hr>
+            <h2>Perguntas de Multipla Escolha </h2>
+            <h3>
                 <!-- TODO: Add multiple choice question here X-->
                 Qual o nome do criador da linguagem C++
-                </h3>
-                <button class='button'>Dennis Ritchie</button> 
-                <button id='RespostaCorreta'>Bjarne Stroustrup</button>
-                <button class='button'>James Gosling</button>
-                <button class='button'>Guido Van Rossum</button>
-            </div>
+            </h3>
+            <button class='errado'>Dennis Ritchie</button>
+            <button id='RespostaCorreta'>Bjarne Stroustrup</button>
+            <button class='errado'>James Gosling</button>
+            <button class='errado'>Guido Van Rossum</button>
+        </div>
 
-            <div class="section">
-                <hr>    
-                <h2>Perguntas Abertas</h2>
-                <h3>
+        <div class="section">
+            <hr>
+            <h2>Perguntas Abertas</h2>
+            <h3>
                 <!-- TODO: Add free response question here X-->
                 Em qual pais foi criada a linguagem de programção Lua
-                </h3>
-                <input type ="text"> 
-                <button type="submit">Checar Resposta</button>
-                </input>  
-            </div>
+            </h3>
+            <input type="text">
+            <button type="submit">Checar Resposta</button>
+            </input>
         </div>
+    </div>
     <script src="script.js"></script>
-    </body>
+</body>
+
 </html>

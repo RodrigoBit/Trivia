@@ -4,7 +4,7 @@ botaoCorreto.addEventListener("click", function () {
   this.classList.toggle("botao-clicado");
 });
 
-const botoes = document.querySelectorAll("button");
+const botoes = document.querySelector(".errado");
 
 botoes.addEventListener("click", function () {
   this.classList.toggle("botao-clicado-errado");
