@@ -5,7 +5,7 @@ const botoesCorretos = document.querySelectorAll(".correto");
 botoesCorretos.forEach((botao) => {
   botao.addEventListener("click", function () {
     this.classList.toggle("botao-clicado-correto");
-    this.classList.toggle('desabilitar-hover-v');
+    this.classList.toggle("desabilitar-hover-v");
   });
 });
 
@@ -16,13 +16,13 @@ const botoesErrados = document.querySelectorAll(".errado");
 botoesErrados.forEach((botao) => {
   botao.addEventListener("click", function () {
     this.classList.toggle("botao-clicado-errado");
-    this.classList.toggle('desabilitar-hover-f');
+    this.classList.toggle("desabilitar-hover-f");
   });
 });
 // Seleciona a caixa de texto que receberá a resposta
 const box = document.querySelector(".box");
 
-// Seleciona o botçao que enviará a respsta
+// Seleciona o botao que enviará a resposta
 const enviar = document.querySelector(".enviar");
 
 // Limpa a seleção
@@ -45,5 +45,3 @@ box.addEventListener("click", function (params) {
   this.classList.toggle("respostaAbertaErrada", false);
 });
 enviar.addEventListener("click", checar);
-
-console.log(box.value);
